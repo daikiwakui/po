@@ -1,0 +1,950 @@
+/* 全体 */
+body{
+  color: #2b2b2b;
+  font-family:  Poiret One,"Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  line-height: 1.5;
+  margin:auto ;
+  background-color: #F0F0F0;
+ 
+
+}
+.title{
+  font-size: 4vw;
+  margin:5vw 0 0 10vw ;
+  font: bold; 
+  
+}
+.sub-title{
+  font-size: 1.5vw;
+  margin:0 0 0 11vw ;  
+}
+
+.row {
+  display: flex;
+  
+}
+.column {
+  width: 50%;
+  position: relative;
+}
+
+
+.small {
+  font-size: 80%;
+}
+
+.p-1 {
+  padding: 1vw;
+}
+
+.p-2 {
+  padding: 2vw;
+}
+
+.p-3 {
+  padding: 3vw;
+}
+
+.p-4 {
+  padding: 4vw;
+}
+
+.p-5 {
+  padding: 5vw;
+}
+
+.xs-visible {
+  display: none;
+}
+
+.hide {
+  display: none;
+  opacity: 0;
+}
+
+.show {
+  display: block;
+  opacity: 1;
+}
+
+/* nav----------------------------- */
+
+.sns1,.sns2,.sns3{ 
+  width: 30px;   
+} 
+
+.nav-list{
+ list-style: none;
+color: #FFFFFF;
+text-decoration-line: none;
+margin-right: 20px;
+
+}
+
+.absolute_nav{
+  width: 12vw;
+  position:  fixed;
+  top: 50px;
+  right: 0px;
+  background-color: #2b2b2b;
+  line-height: 4;
+  font-size: 2vw; 
+  padding : 1vw 0 1vw 2vw;
+  z-index: 100;
+}
+.nav-list-contact{
+  color: #2b2b2b;
+  background-color: #FFFFFF;
+  text-decoration-line: none;
+  text-shadow: 1px 1px 2px #000;
+  padding: 1vw 0.5vw;
+  border-radius: 5px;
+}
+/* /* /* top--------------------------------------------------- */
+.top {
+  position:relative;
+  height: 100vh;
+}
+
+.video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+/* video-center----------------- */
+.top-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.absolute_top {
+  font-weight: bold; 
+  font-size: 3vw;
+  position:  absolute ; 
+  z-index: 1;
+
+} 
+
+.absolute_top_right{
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 2;
+}
+
+
+/* about ====================================================*/
+.about-name{
+  font-size: 3vw;
+  position: relative;
+  top: 4vh;
+  left: 10vw;
+}
+.small{
+  display: none;
+}
+
+.about-text{
+  font-size: 2vw;
+  position: relative;
+  right: 4vw;
+}
+.big-text{
+  font-size: 3vw;
+  position: relative;
+}
+.img-ot{
+  width: 90%;
+  position: relative;
+  opacity: 0.7;
+}
+.img-pc{
+  width: 90%;
+  position: relative;
+  opacity: 0.7;
+}
+.res-img-pc{
+  display: none;
+}
+.about-title{
+background-color: #ffffff;
+display: inline-block;
+}
+
+.btn-about{
+ font-size: 2.5vw;
+ padding: 1vw 2vw;
+ color: #fff;
+ border-style: none;
+ box-shadow: 2px 2px 3px 1px #666;
+-moz-box-shadow: 2px 2px 3px 1px #666;
+-webkit-box-shadow: 2px 2px 3px 1px #666;
+text-shadow: 1px 1px 2px #000;
+background: #707070;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+position: absolute;
+bottom: 5vh;
+right: 14vw;
+}
+
+.btn-about:hover {
+    opacity: 0.8;
+} 
+
+.res-btn{
+  display: none;
+}
+/* skills ====================================================*/
+.res-skills-title{
+  display: none;
+}
+
+
+.skills-title{
+  color: #ffffff;
+  
+}
+
+.img-skills{
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+.skills-text{
+  position: absolute;
+  font-size: 3vw;
+}
+
+
+
+.skills-list{
+  display: flex;
+  
+}
+
+.skills-menu{
+  padding-right:5vw ;
+}
+
+
+
+
+.skills-list{
+  font-size: 2.5vw;
+  padding-left: 25vw; 
+  line-height: 2.5;
+  color: #2b2b2b;
+}
+
+
+
+.skills-title{
+  background-color: #2b2b2b;
+  display: inline-block;
+  }
+/* works---------------------------- */
+.works-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 20vw 20vw;
+  margin: 20px 20vw 20vw 10vw;
+}
+
+.item{
+  border: solid;
+  border-color: #707070;
+
+}
+
+
+
+.works-title{
+  background-color: #ffffff;
+  display: inline-block;
+  }
+
+
+/* service ------------------------------*/
+.skills-list{
+font-size: 3vw;
+}
+
+.services-list{
+  font-size: 3vw;
+  padding-left: 25vw; 
+  line-height: 3;
+  color: #2b2b2b;
+   display: flex;
+}
+
+.services-menu{
+padding-right: 5vw;
+}
+ .btn-services{
+   font-size: 2.5vw;
+  padding: 1vw 2vw;
+  color: #fff;
+  border-style: none;
+  box-shadow: 2px 2px 3px 1px #666;
+ -moz-box-shadow: 2px 2px 3px 1px #666;
+ -webkit-box-shadow: 2px 2px 3px 1px #666;
+ text-shadow: 1px 1px 2px #000;
+ background: #707070;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border-radius: 5px;
+ position: relative;
+bottom: 2vw;
+left: 60vw;
+  
+ }
+ 
+  
+ .btn-services:hover {
+     opacity: 0.8;
+ } 
+
+
+ .services-title{
+  background-color: #2b2b2b;
+  display: inline-block;
+  color: #FFFFFF;
+  }
+
+/* contact -------------------------*/
+.img-contact{
+  width: 100%;
+  height: auto;  
+}
+.contact-img{
+ opacity: 0.5; 
+}
+
+.contact-title{
+  font-weight: 900;
+  color: #707070;
+  position: relative;
+  top: 15vw;
+  
+  z-index: 20;
+}
+
+
+.contact{
+  position: relative;
+}
+
+.contact-form{
+  position: absolute;
+  left: 5vw; 
+  bottom: 10vw;
+  z-index: 5;
+}
+
+#name{
+  width: 19vw;
+  height: 3vw;
+}
+#email{
+  width: 21vw;
+  height: 3vw;
+}
+
+#Message{
+  width: 40vw;
+  height: 15vw;
+}
+
+
+
+.btn-contact{
+  font-size: 2.5vw;
+  padding: 1vw 2vw;
+  color: #fff;
+  border-style: none;
+  box-shadow: 2px 2px 3px 1px #666;
+ -moz-box-shadow: 2px 2px 3px 1px #666;
+ -webkit-box-shadow: 2px 2px 3px 1px #666;
+ text-shadow: 1px 1px 2px #000;
+ background: #ff0000;
+ -moz-border-radius: 5vw;
+ -webkit-border-radius: 10vw;
+ border-radius: 1vw;
+ position: relative;
+ top: 5vw;
+ left: 2vw;
+ }
+ 
+  
+ .btn-contact:hover {
+     opacity: 0.5;
+ } 
+
+/* footer--------------------------- */
+
+.copyright{
+  color: #FFFFFF;
+  background-color:#707070 ;
+
+  text-align:center;
+  margin: 0;
+ 
+  
+}
+
+/* about.html------------------------ */
+
+
+.absolute_about {
+  font-weight: bold;
+  position:  absolute;       
+  left:  1vw;                
+  top: 1vw; 
+  z-index:10;                
+}
+
+.top-img{
+  width: 100%;
+  height:auto;
+
+}
+
+
+
+.about2-text{
+  background-color:transparent ;
+  
+  font: bold;
+  font-size: 1.5vw;
+  position: relative;
+  top: 0vw;
+  left: 2vw;
+  color: #ffffff;
+
+}
+.text-main{
+  font-size: 2.5vw;
+  font: bold;
+}
+
+
+/* services.html------------------------- */
+
+
+.img-services1{
+  width: 40%;
+  position: relative;
+  top: 10vw;
+  left: 50vw;
+  
+}
+
+
+.img-services2{
+  width: 40%;
+  position: relative;
+  top: 70vw;
+  right: 20vw;
+ 
+}
+  .img-services3{
+    width: 40%;
+    position: relative;
+    top: 90vw;
+    left: 50vw;
+  }
+    .img-services4{
+      width: 40%;
+      position: relative;
+      top: 140vw;
+      right: 20vw;
+    }
+
+
+    .services-list1{
+     background-color: #ffffff;
+     border: solid 1px #2b2b2b;
+     padding: 0.5em 1em;
+     margin: 2em 0;
+     position: absolute;
+     left: 20vw;
+     z-index: 10;
+     font-size: 2vw;
+    }
+    
+    .services-list2{
+      background-color: #ffffff;
+      border: solid 1px #2b2b2b;
+      padding: 0.5em 1em;
+      margin: 2em 0;
+      position: absolute;
+      left: 50vw;
+      top: 75vw;
+      z-index: 10;
+      font-size: 2vw;
+    }
+
+.services-list3{
+      background-color: #ffffff;
+      border: solid 1px #2b2b2b;
+      padding: 0.5em 1em;
+      margin: 2em 0;
+      position: absolute;
+      top: 120vw;
+      left: 20vw;
+      z-index: 10;
+      font-size: 2vw;
+    }
+
+
+  .services-list4{
+      background-color: #ffffff;
+      border: solid 1px #2b2b2b;
+      padding: 0.5em 1em;
+      margin: 2em 0;
+      position: absolute;
+      top: 170vw;
+
+      left: 50vw;
+      z-index: 10;
+      font-size: 2vw;
+    }
+
+    .services-text{
+      font-size: 1.5vw;
+      line-height: 2;
+    }
+
+.footer-services{
+  
+position: relative;
+top: 140vw;
+}
+/* レスポンシブ対応 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+@media(max-width: 767px) {
+  /* nav---------------------------------------- */
+  .xs-hidden {
+    display: none;
+  }
+  .xs-visible {
+    display: block;
+  } 
+
+  /*ハンバーガーアイコン*/
+  .sp-navicon {
+    position: absolute;
+    top: 4vw;
+    right: 4vw;
+    z-index: 100;
+    position: fixed;
+    
+  }
+  .sp-navicon span {
+    position: relative;
+    height: 3px;
+    /*線の太さ*/
+    width: 30px;
+    /*長さ*/
+    border-radius: 3px;
+    background: #2b2b2b;
+    display: block;
+    margin-bottom: 5px;
+    content: 'MENU';
+    cursor: pointer;
+    transition: .3s ease-in-out;
+  }
+
+  #text{
+    display: none;
+  }
+
+
+  .sp-navcontent {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 80%;
+    height: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: #2b2b2b;
+    /*滑らかに表示*/
+    -webkit-transform: translateX(105%);
+    transform: translateX(105%);
+    /*右に隠しておく*/
+    
+  }
+  #nav-input:checked~#nav-open {
+    position: fixed;
+    top: 6vw;
+    right: 6vw;
+    z-index: 11;
+
+
+  }
+  #nav-input:checked~#nav-open span {
+    background: #ffffff;
+    z-index: 11;
+
+  }
+  #nav-input:checked~#nav-open span:nth-child(1) {
+    transform: rotate(45deg);
+    margin-bottom: 0;
+  }
+  #nav-input:checked~#nav-open span:nth-child(2) {
+    opacity: 0;
+  }
+  #nav-input:checked~#nav-open span:nth-child(3) {
+    transform: rotate(-45deg);
+    margin-top: -10px;
+  }
+  #nav-input:checked~#nav-open span:nth-child(3)::after {
+    display: none;
+  }
+  #nav-input:checked~#sp-navcontent {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+/* top----------------------------------------- */
+  .absolute_nav{
+    font-size: 30px;
+    display: inline-block;
+    right: 150px;
+    margin-top: 30px;
+    
+
+
+  }
+  .absolute_top_right{
+    
+    display: inline-block;
+    right: 85px;
+  }
+  .sns1,.sns2,.sns3{ 
+    width: 50px;   
+  } 
+
+  .absolute_top {
+    font-size: 6vw;
+    top: 1vh;
+    left: 1vw;
+  }
+  .row {
+    display: relative;
+  }
+
+
+
+/* .about-name----------------------------------- */
+
+  .column, .title, .about-title, .about-name {
+    width: 100%;
+  }
+  .about-title, .skills-title, .works-title, .services-title, .services-page-title {
+    display: inline-block;
+    text-align: center;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+  }
+  .title {
+    font-size: 8vw;
+    margin: 0;
+  }
+  .sub-title {
+    font-size: 4vw;
+    margin: 0;
+  }
+
+     .about-name {
+    height: 75vh;
+    position: static;
+    padding-top: 32vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    font-size: 6vw;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+    url('../img/about1-2.jpg');
+    background-size: cover;
+    } 
+
+    .small{
+      display: inline;
+    }
+
+    .about{
+      
+      width: 100%;
+    }
+    
+    .btn-about{
+      
+      font-size: 5vw;
+     padding: 2vw 20vw; 
+   margin-bottom: 30vw;
+     letter-spacing: 0.1em;
+    position: relative;
+   top: 5vw;
+   left: 12vw; 
+     
+    }
+    .res-btn{
+      display: initial;
+      position: relative;
+       top: 10vw;
+    }
+    
+      
+      
+    
+     
+   
+
+    /* .skills---------------------------------- */
+    .res-skills-title{
+      display: block;
+      color: #FFFFFF;
+      text-align: center;
+      background-color: #2b2b2b;
+      padding-top: 6vh;
+    padding-bottom: 6vh;
+        
+
+
+    }
+    .skills-title{
+      display: none;
+    }
+    
+    .skills-title, .skills-menu, .skills-star{
+      width: 100%;
+      height: auto;
+
+    }
+
+
+    .skills-list {
+      font-size: 5vw;
+      padding: 30px; 
+    } 
+    
+
+   
+    /* .works------------------------------- */
+    .works-title{
+      width: 100%;
+      height: auto;
+    }
+    .works-list{
+      display: grid;
+      grid-template-columns: 1fr ;
+      gap: 10vh;
+      grid-template-rows: 50vh 50vh 50vh 50vh 50vh 50vh ;
+      margin: 20px 20vw 20vw 10vw;
+    }
+  
+      /* services ーーーーーーーーーーーーー*/
+      .services-title{
+        width: 100%;
+        height: auto;
+      }
+      .services-list {
+        font-size: 5vw;
+        text-align: center;
+        padding: 20px;
+      }
+      .btn-services{
+          font-size: 5vw;
+         padding: 2vw 20vw;
+         letter-spacing: 0.1em;
+        position: relative;
+       top: 5vw;
+       left: 12vw;
+         
+        }
+        
+      
+        /* contact ---------------------------- */
+
+        
+      
+      .contact-title{
+        text-align: center;
+        top: 25vw;
+        
+       
+      }
+
+        .img-contact {
+          width: 100%; 
+          height: 120vh;
+          position: relative;
+          object-fit: cover;
+          
+         
+          
+        }.contact-form{
+         display: inline-block;
+         top: 40vh;
+         text-align: center;
+         
+        
+        }
+        
+        #name{
+          width: 35vh;
+          height: 6vh;
+        }
+        #email{
+          width: 35vh;
+          height: 6vh;
+        }
+        
+        #Message{
+          width: 35vh;
+          height: 30vh;
+          
+        }
+        .btn-contact{
+          font-size: 3vh;
+         padding:2vh 4vh;
+         text-align: center;
+         letter-spacing: 0.1em;
+        position: relative;
+        bottom: 2vh;
+        }
+
+        /* about-html --------------------------------*/
+
+        .top-img {
+          width: 100%; 
+          height: 120vh;
+          position: relative;
+          object-fit: cover;
+          opacity: 0.3;
+        
+        }
+        .about2-text{
+          color: #2b2b2b;
+          font-size: 4vw;
+        }
+        .text-main{
+          color: #2b2b2b;
+          font-size: 5vw;
+          font: bold;
+          line-height: 3;
+        }
+ /* service-html --------------------------------*/
+
+
+      .services-page-title{
+        display: block;
+         text-align: center;
+          background-color:#FFFFFF;
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+        }
+        .img-services1, .img-services2, .img-services3, .img-services4 {
+        display: none ;
+      }
+     
+        .services-text{
+          font-size: 4vw;
+        }
+
+
+        .services-list1 {
+          width: 100%;
+          height: auto;
+          position: static;
+          padding: 20vh 0 20vh 0 ;
+          text-align: center;
+          
+          background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+          url('../img/services1.jpg');
+          background-size: cover;
+          background-position: center;
+          
+          } 
+          .services-title1{
+            font-size: 6vw;
+          }
+
+
+          .services-list2 {
+            width: 100%;
+            height: auto;
+            position: static;
+            padding: 20vh 0 20vh 0 ;
+            text-align: center;
+            
+            background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+            url('../img/services2.jpg');
+            background-size: cover;
+            background-position: center;
+
+            } 
+            .services-title2{
+              font-size: 6vw;
+            }
+
+            .services-list3 {
+              width: 100%;
+              height: auto;
+              position: static;
+              padding: 20vh 0 20vh 0 ;
+              text-align: center;
+              
+              background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+              url('../img/services3.jpg');
+              background-size: cover;
+              background-position: center;
+
+              } 
+              .services-title3{
+                font-size: 6vw;
+              }
+
+              .services-list4 {
+               
+                position: static;
+                padding: 20vh 0 20vh 0 ;
+                text-align: center;
+                
+                background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+                url('../img/services4.jpg');
+                background-size: cover;
+                background-position: center;
+                } 
+                .services-title4{
+                  font-size: 6vw;
+                }
+
+ }
+
+
+
+    
+
+
+
+    
+    
+    
+    
+  
+   
