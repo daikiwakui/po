@@ -808,24 +808,30 @@ top: 140vw;
         #name{
           width: 35vh;
           height: 6vh;
+          margin: 1vh;
         }
         #email{
           width: 35vh;
           height: 6vh;
+          margin: 1vh;
         }
         
         #Message{
           width: 35vh;
           height: 30vh;
+          margin: 1vh;
           
         }
         .btn-contact{
           font-size: 3vh;
+          display: inline;
+          text-align: center; 
+          
          padding:2vh 4vh;
-         text-align: center;
+
          letter-spacing: 0.1em;
-        position: relative;
-        bottom: 2vh;
+        
+      
         }
 
         /* about-html --------------------------------*/
